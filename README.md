@@ -1,5 +1,6 @@
 # M. Berin Dental Clinic Website
 
+## Screenshots
 ![image](https://github.com/user-attachments/assets/d98b2bb6-0a64-47b6-addd-0504dbcb4796)
 ![image](https://github.com/user-attachments/assets/b772df0d-b384-4b03-a435-c62213739bfa)
 ![image](https://github.com/user-attachments/assets/1f5f07c1-acb3-4da7-b404-54a3fb365438)
