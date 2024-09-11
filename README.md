@@ -1,5 +1,7 @@
 # M. Berin Dental Clinic Website
 
+**View project here:** https://mberin.github.io/
+
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/d98b2bb6-0a64-47b6-addd-0504dbcb4796)
 ![image](https://github.com/user-attachments/assets/b772df0d-b384-4b03-a435-c62213739bfa)
