@@ -100,11 +100,8 @@ svg {
 }
 
 .btn-nav {
-    background-color: white;
-    border-radius: 10px;
     padding: 13px 16px;
     transition: ease 0.3s;
-    box-shadow: 0px 2px 6px rgba(93, 79, 255, 0.1);
 }
 
 .white-btn{
@@ -113,7 +110,6 @@ svg {
 
 .navbar .btn-nav:hover{
     color: #5d4fff;
-    background-color: #F2F1FE;
 }
 
 .small-nav {
@@ -466,13 +462,13 @@ svg {
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    transition: 0.3s;
+    /* transition: 0.3s; */
     box-shadow: 2px 2px 10px rgba(93, 79, 255, 0.1);
 }
 
-.service-card:hover {
+/* .service-card:hover {
     transform: scale(1.02);
-}
+} */
 
 .service-img {
     height: 50%;
@@ -490,7 +486,8 @@ svg {
 
 .service-info {
     text-align: center;
-    padding: 10px 10px 40px 10px;
+    /* padding: 10px 10px 40px 10px; */
+    padding: 10px;
     height: 50%;
     border-top: none;
     border-radius: 0 0 10px 10px;
@@ -509,6 +506,26 @@ svg {
 .description {
     font-weight: 300;
     margin-bottom: 1em;
+}
+
+.learn-more-container {
+    text-align: left;
+    width: 100%;
+    padding: 20px 20px 35px 20px;
+}
+
+.learn-more {
+    background-color: #5d4fff;
+    color: white;
+    padding: 9px 14px;
+    font-weight: bolder;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.learn-more:hover {
+    transform: translateY(-3px);
 }
 
 @media screen and (max-width: 1092px) {
@@ -748,6 +765,10 @@ svg {
     padding-bottom: 2em;
 }
 
+.quick-foot li:hover, .service-foot li:hover {
+    text-decoration: underline;
+}
+
 .contact-container {
     display: flex;
     justify-content: flex-start;
@@ -814,7 +835,7 @@ svg {
     .large-footer-container {
         grid-template-columns: 320px 110px;
         grid-template-rows: 190px 332px;
-        padding-top: 1em;
+        padding-bottom: 5em;
     }
 }
 
